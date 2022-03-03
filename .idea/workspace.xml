@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28eeb5ff-9eb9-4b6e-9b78-b6a929a03ea0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20vD0H1cqAVvLBY9dctghfVuxvg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/ProfileInfo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="D:\IT\IT-kamasytra\samurai\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\IT-kamasytra\samurai\src\Profile\MyPosts\Propfile\ProfileInfo" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components\Dialogs" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components\Dialogs\Dialog" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components\News" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT\IT-kamasytra\samurai\src\Profile\MyPosts\Propfile\MyPosts" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\Profile\MyPosts\Propfile" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components\Dialogs\Dialog" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\Profile" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components\Dialogs\Dialog.tsx" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\Header.tsx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28eeb5ff-9eb9-4b6e-9b78-b6a929a03ea0" name="Changes" comment="" />
+      <created>1636915943059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636915943059</updated>
+      <workItem from="1636915944745" duration="4447000" />
+      <workItem from="1637080660732" duration="9226000" />
+      <workItem from="1637260601659" duration="11402000" />
+      <workItem from="1637487954377" duration="1196000" />
+      <workItem from="1637611782127" duration="6636000" />
+      <workItem from="1637693681671" duration="12514000" />
+      <workItem from="1638216399016" duration="2824000" />
+      <workItem from="1638299727602" duration="9278000" />
+      <workItem from="1638465947007" duration="5998000" />
+      <workItem from="1638554074649" duration="6186000" />
+      <workItem from="1638812774971" duration="239000" />
+      <workItem from="1638815815024" duration="4000" />
+      <workItem from="1638966305208" duration="8419000" />
+      <workItem from="1639237250830" duration="622000" />
+      <workItem from="1639572176276" duration="3000" />
+      <workItem from="1639572262278" duration="630000" />
+      <workItem from="1640117429781" duration="2392000" />
+      <workItem from="1640168120739" duration="3824000" />
+      <workItem from="1640532320799" duration="47000" />
+      <workItem from="1640622696467" duration="75000" />
+      <workItem from="1641412365777" duration="527000" />
+      <workItem from="1641750517940" duration="3244000" />
+      <workItem from="1641837019419" duration="6975000" />
+      <workItem from="1643223118724" duration="4819000" />
+      <workItem from="1643228108891" duration="14006000" />
+      <workItem from="1643554024732" duration="594000" />
+      <workItem from="1644340249458" duration="2925000" />
+      <workItem from="1644352961273" duration="854000" />
+      <workItem from="1644418765159" duration="245000" />
+      <workItem from="1644753688019" duration="3403000" />
+      <workItem from="1645973408754" duration="10433000" />
+      <workItem from="1646079801801" duration="2097000" />
+      <workItem from="1646153344665" duration="26000" />
+      <workItem from="1646243062291" duration="9204000" />
+      <workItem from="1646329520958" duration="57000" />
+      <workItem from="1646329586686" duration="5848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

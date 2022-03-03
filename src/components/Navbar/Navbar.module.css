@@ -1,0 +1,15 @@
+.nav {
+    grid-area:n;
+    background-color:lightgray;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.item a{
+    color:cadetblue;
+    font-size: x-large;
+    text-decoration: none;
+}
+.item a:hover {
+    color: white;
+}
