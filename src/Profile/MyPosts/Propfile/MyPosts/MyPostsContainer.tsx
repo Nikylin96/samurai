@@ -3,6 +3,7 @@ import s from './MyPosts.module.css'
 import {Post} from "../../Post/Post";
 import {ActionTypes, ProfilePageType} from "../../../../redux/state";
 import {addPostAC, changeNewTextAC} from "../../../../redux/ProfileReducer";
+import {MyPosts} from "./MyPosts";
 
 type MyPostsType = {
     profilePage: ProfilePageType
@@ -12,7 +13,7 @@ type MyPostsType = {
 
 }
 
-export const MyPosts = (props: MyPostsType) => {
+export const MyPostsContainer = (props: MyPostsType) => {
     debugger
     const onClickHandler = () => {
         // props.addPost(props.profilePage.newPostText)
@@ -27,18 +28,7 @@ export const MyPosts = (props: MyPostsType) => {
 
     return (
         <div className={s.postBlock}>
-            <h3>My posts</h3>
-            <div>
-                <div>
-                    <textarea value={props.profilePage.newPostText} onChange={onChangeHandler}/>
-                </div>
-                <button onClick={onClickHandler}>add post</button>
-            </div>
-            <div className={s.posts}>
-                {
-                    props.profilePage.posts.map((post) => <Post title={post.title} likeCounts={post.likeCounts}/>)
-                }
-            </div>
+            <MyPosts profilePage={} dispatch={}/>
         </div>
     )
 }

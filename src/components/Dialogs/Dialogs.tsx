@@ -1,39 +1,44 @@
 import React from "react";
 import s from './Dialogs.module.css'
-import {DialogItem} from "./Dialog/DialogItem";
+import {DialogItem} from "./DialogItem/DialogItem";
 import {Message} from "./Message/Message";
+import {ActionTypes, dialogsType, MessageType} from "../../redux/state";
+import {sendMessageTextAC, updateNewMessageTextAC} from "../../redux/DialogsReducer";
 
-export const Dialogs = () => {
-    let dialogsData = [
-        {id: 1, name: 'Arthas'},
-        {id: 2, name: 'Anduin'},
-        {id: 3, name: 'Varian'},
-        {id: 4, name: 'Thrall'}
-    ]
-    let messagesData = [
-        {message: 'Hi'},
-        {message: 'For the alliance'},
-        {message: 'Into battle'},
-        {message: 'For the horde'}
-    ]
+type DialogsProps = {
+    dialogs: Array<dialogsType>
+    messages: Array<MessageType>
+    dispatch: (action: ActionTypes) => void
+    newMessageText: string
+}
+
+export const Dialogs = (props: DialogsProps) => {
+
+    const postMessageRef = React.createRef<HTMLTextAreaElement>()
+    const onClickHandler = ()=> {debugger
+        props.dispatch(sendMessageTextAC())
+        // alert(postMessageRef.current?.value)
+    }
+    let dialogsElements =  props.dialogs.map(dialog =><DialogItem name={dialog.name} id={dialog.id}/>)
+    let messagesElements = props.messages.map(message =><Message message={message.message}/>)
+    // let newMessageBody = props.messages
+
+
 
     return (
         <div className={s.dialogsBlock}>
             <div className={s.dialogsItems}>
-                {
-                    dialogsData.map(dialog =>
-                        <DialogItem name={dialog.name}
-                                    id={dialog.id}/>
-                    )
-                }
-
+                {dialogsElements}
             </div>
             <div className={s.messages}>
-                {
-                    messagesData.map(message =>
-                        <Message message={message.message}/>
-                    )
-                }
+                <div>{messagesElements}</div>
+
+                <span> <textarea placeholder={'введите сообщение'}
+                                 onChange={(e)=>{props.dispatch(updateNewMessageTextAC(e.currentTarget.value))}}
+                                 value={props.newMessageText} >
+                </textarea>
+                    <button onClick={onClickHandler}>add message</button>
+                </span>
             </div>
         </div>
     )

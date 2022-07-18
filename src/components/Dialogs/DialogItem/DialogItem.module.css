@@ -7,15 +7,10 @@
 .dialogsItems {
     padding: 10px;
 }
-
-.dialog {
-
-}
-
 .messages{
 padding: 10px;
 }
-
-.meassgae {
-
+.dialog img {
+    width: 20px;
+    height: 20px;
 }

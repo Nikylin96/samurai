@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28eeb5ff-9eb9-4b6e-9b78-b6a929a03ea0" name="Changes" comment="" />
+    <list default="true" id="28eeb5ff-9eb9-4b6e-9b78-b6a929a03ea0" name="Changes" comment="lesson 26">
+      <change afterPath="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/MyPosts/MyPostsContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/sideBar/SideBar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/sideBar/SideBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/DialogsReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/ProfileReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reduxStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/MyPosts/MyPosts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/DialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/DialogItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -28,39 +50,40 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="20vD0H1cqAVvLBY9dctghfVuxvg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Profile/MyPosts/Propfile/ProfileInfo" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="D:\IT\IT-kamasytra\samurai\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IT/IT-kamasytra/samurai/src/Profile/MyPosts/Propfile/MyPosts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IT\\IT-kamasytra\\samurai\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\IT-kamasytra\samurai\src\Profile\MyPosts\Propfile\MyPosts" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\redux" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src" />
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components\Navbar\sideBar" />
       <recent name="D:\IT\IT-kamasytra\samurai\src\Profile\MyPosts\Propfile\ProfileInfo" />
-      <recent name="D:\IT\IT-kamasytra\samurai\src\components\Dialogs" />
-      <recent name="D:\IT\IT-kamasytra\samurai\src\components\Dialogs\Dialog" />
-      <recent name="D:\IT\IT-kamasytra\samurai\src\components" />
-      <recent name="D:\IT\IT-kamasytra\samurai\src\components\News" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT\IT-kamasytra\samurai\src\components" />
       <recent name="D:\IT\IT-kamasytra\samurai\src\Profile\MyPosts\Propfile\MyPosts" />
       <recent name="D:\IT\IT-kamasytra\samurai\src\Profile\MyPosts\Propfile" />
-      <recent name="D:\IT\IT-kamasytra\samurai\src\components" />
       <recent name="D:\IT\IT-kamasytra\samurai\src\components\Dialogs\Dialog" />
       <recent name="D:\IT\IT-kamasytra\samurai\src\Profile" />
     </key>
@@ -127,11 +150,75 @@
       <workItem from="1646153344665" duration="26000" />
       <workItem from="1646243062291" duration="9204000" />
       <workItem from="1646329520958" duration="57000" />
-      <workItem from="1646329586686" duration="6202000" />
+      <workItem from="1646329586686" duration="7556000" />
+      <workItem from="1646419606783" duration="20000" />
+      <workItem from="1646420001918" duration="2014000" />
+      <workItem from="1646594754519" duration="16516000" />
+      <workItem from="1646745778128" duration="3083000" />
+      <workItem from="1647092946254" duration="787000" />
+      <workItem from="1647164630170" duration="2085000" />
+      <workItem from="1647287322450" duration="3214000" />
+      <workItem from="1647374477895" duration="1054000" />
+      <workItem from="1647699684091" duration="4494000" />
+      <workItem from="1647804302804" duration="598000" />
+      <workItem from="1647972203469" duration="3642000" />
+      <workItem from="1647978077823" duration="1417000" />
+      <workItem from="1648061539966" duration="3036000" />
+      <workItem from="1648147435291" duration="2157000" />
+      <workItem from="1648290288386" duration="605000" />
+      <workItem from="1648398207877" duration="602000" />
+      <workItem from="1648465961619" duration="1578000" />
+      <workItem from="1648471696908" duration="6763000" />
+      <workItem from="1648585447091" duration="1343000" />
+      <workItem from="1648630652214" duration="49000" />
+      <workItem from="1648742030826" duration="1891000" />
+      <workItem from="1648926671756" duration="1515000" />
+      <workItem from="1648930992500" duration="81000" />
+      <workItem from="1648980183621" duration="3676000" />
+      <workItem from="1649072193861" duration="562000" />
+      <workItem from="1649701919344" duration="1503000" />
+      <workItem from="1649785481267" duration="4058000" />
+      <workItem from="1649960739086" duration="4156000" />
+      <workItem from="1650474262364" duration="7958000" />
+      <workItem from="1651164623830" duration="6187000" />
+      <workItem from="1651301792580" duration="5163000" />
+      <workItem from="1651415768818" duration="1737000" />
+      <workItem from="1652377712445" duration="4682000" />
+      <workItem from="1652639988899" duration="271000" />
+      <workItem from="1652640482935" duration="764000" />
+      <workItem from="1652810390624" duration="6979000" />
+      <workItem from="1652901993578" duration="593000" />
+      <workItem from="1653738921427" duration="2488000" />
+      <workItem from="1653936954792" duration="1173000" />
+      <workItem from="1654024603436" duration="793000" />
+      <workItem from="1656144411700" duration="664000" />
+      <workItem from="1656348727957" duration="135000" />
+      <workItem from="1656349031009" duration="58000" />
+      <workItem from="1656353358324" duration="5630000" />
+      <workItem from="1656449515391" duration="1340000" />
+      <workItem from="1656489834240" duration="759000" />
+      <workItem from="1656601607460" duration="87000" />
+      <workItem from="1656601749808" duration="87000" />
+      <workItem from="1656615307158" duration="3196000" />
+      <workItem from="1656702046877" duration="2032000" />
+      <workItem from="1656749576994" duration="625000" />
+      <workItem from="1657042444616" duration="1474000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson 26">
+      <created>1646335969386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646335969386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 26" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 26" />
   </component>
 </project>
